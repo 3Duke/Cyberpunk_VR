@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7909383456469830043}
   - component: {fileID: 1195917795241718701}
   - component: {fileID: 4874101567889379156}
+  - component: {fileID: 7947483572858960473}
   m_Layer: 0
   m_Name: shrine
   m_TagString: Untagged
@@ -79,3 +80,17 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &7947483572858960473
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6600200634550107016}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1758713900527511393, guid: 218d71ce3baa4c241b18566c66803206, type: 3}
