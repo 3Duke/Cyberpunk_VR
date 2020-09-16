@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4896490937648119461}
   - component: {fileID: 4515089728942392467}
   - component: {fileID: 7896036398370371690}
+  - component: {fileID: 4143076654471659429}
   m_Layer: 0
   m_Name: dumpster_blue
   m_TagString: Untagged
@@ -25,7 +26,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8478181640109657270}
-  m_LocalRotation: {x: -0.7063594, y: -0.032502715, z: -0.032502715, w: 0.7063594}
+  m_LocalRotation: {x: -0.70635945, y: -0.03250178, z: -0.03250178, w: 0.70635945}
   m_LocalPosition: {x: 24.601292, y: 0.36, z: -7.25}
   m_LocalScale: {x: 1.1704, y: 1.1704, z: 1.1704}
   m_Children: []
@@ -79,3 +80,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &4143076654471659429
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8478181640109657270}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.6803277, y: 1.6076615, z: 1.7325205}
+  m_Center: {x: 5.8373484e-10, y: 0.019586891, z: 0.7500046}
