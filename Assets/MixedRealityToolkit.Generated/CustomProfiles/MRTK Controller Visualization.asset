@@ -36,7 +36,8 @@ MonoBehaviour:
     handedness: 1
     useDefaultModel: 0
     defaultModelMaterial: {fileID: 0}
-    overrideModel: {fileID: 0}
+    overrideModel: {fileID: 7802701170150764215, guid: 66bf1976c83431b4dab2f53fc2f85943,
+      type: 3}
     controllerVisualizationType:
       reference: Microsoft.MixedReality.Toolkit.Input.WindowsMixedRealityControllerVisualizer,
         Microsoft.MixedReality.Toolkit.SDK
@@ -45,9 +46,10 @@ MonoBehaviour:
       reference: Microsoft.MixedReality.Toolkit.WindowsMixedReality.Input.WindowsMixedRealityController,
         Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality
     handedness: 2
-    useDefaultModel: 1
+    useDefaultModel: 0
     defaultModelMaterial: {fileID: 0}
-    overrideModel: {fileID: 0}
+    overrideModel: {fileID: 4122993084701749623, guid: afae8f7bb2b12aa4aba6bfcb4267c00b,
+      type: 3}
     controllerVisualizationType:
       reference: Microsoft.MixedReality.Toolkit.Input.WindowsMixedRealityControllerVisualizer,
         Microsoft.MixedReality.Toolkit.SDK
