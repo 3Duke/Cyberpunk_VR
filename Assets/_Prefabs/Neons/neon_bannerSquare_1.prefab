@@ -192,10 +192,25 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ea6b3295ac642b64381a7f03f54b1d5d, type: 2}
+    - target: {fileID: -1504981713932161579, guid: 9ce3a3d5d03b6694aa61a8e6dd112799,
+        type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -1504981713932161579, guid: 9ce3a3d5d03b6694aa61a8e6dd112799,
+        type: 3}
+      propertyPath: m_ImportantGI
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -927199367670048503, guid: 9ce3a3d5d03b6694aa61a8e6dd112799,
         type: 3}
       propertyPath: m_Name
       value: neon_banner2
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9ce3a3d5d03b6694aa61a8e6dd112799,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9ce3a3d5d03b6694aa61a8e6dd112799, type: 3}
