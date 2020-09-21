@@ -28,8 +28,8 @@ public class player_movement : MonoBehaviour
     public float gravity = 20.0F;
     private Vector3 moveDirection = Vector3.zero;
 
-    private float turner;
-    private float looker;
+    private float mouseX;
+    private float mouseY;
     public float sensitivity;
 
     void Update()
@@ -50,17 +50,17 @@ public class player_movement : MonoBehaviour
 
         }
 
-        turner = Input.GetAxis("Mouse X") * sensitivity;
-        looker = -Input.GetAxis("Mouse Y") * sensitivity;
-        if (turner != 0)
+        mouseX = Input.GetAxis("Mouse X") * sensitivity;
+        mouseY = Input.GetAxis("Mouse Y") * sensitivity;
+        if (mouseX != 0)
         {
-            //Code for action on mouse moving right
-            transform.eulerAngles += new Vector3(0, turner, 0);
+            mouseX = Mathf.Clamp(mouseX, -90f, 90f);
+            transform.rotation = Quaternion.Euler(mouseX, 0, 0);
         }
-        if (looker != 0)
+        if (mouseY != 0)
         {
-            //Code for action on mouse moving right 
-            transform.eulerAngles += new Vector3(looker, 0, 0);
+            mouseY = Mathf.Clamp(mouseY, -90f, 90f);
+            transform.rotation = Quaternion.Euler(0, mouseY, 0);
         }
 
         //Applying gravity to the controller
